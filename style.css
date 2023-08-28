@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+/* common shared styles */
+.primary-color{
+    color: #E55473;
+}
+.bg-color{
+    background-color: rgba(229, 84, 115, 0.1);
+}
+.wrapper{
+    width: 1440px;
+    margin: 0 auto;
+}
+.btn-primary{
+    background-color: #E55473;
+    color: #fff;
+    font-size: 20px;
+    padding: 15px 30px;
+    border: 0px;
+    border-radius: 5px;
+    
+}
+
+/* Header style */
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.logo img{
+    width: 150px;
+    height: auto;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+}
+.menu ul li{
+    list-style: none;
+    padding: 10px 20px;
+    transition: 0.8s;
+}
+.menu ul li.active{
+    border-bottom: 3px solid;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+/* banner styles */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-left, .banner-right{
+    width: 50%;
+}
+.banner-left h1{
+    font-size: 80px;
+    color: #272727;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.banner-left p{
+    color: #272727;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+.banner-right{
+    text-align: right;
+}
+.banner-right img{
+    width: 500px;
+    
+}
