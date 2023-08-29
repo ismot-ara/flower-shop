@@ -189,6 +189,7 @@ figcaption {
   padding: 100px;
   max-width: 100%;
   margin-bottom: 100px;
+  border-radius: 8px
 }
 form {
   width: 1000px;
